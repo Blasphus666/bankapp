@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
-@Service
+@Service ("customUserDetailsServiceImpl")
 public class CustomUserDetailsService implements UserDetailsService {
 
     @Override
